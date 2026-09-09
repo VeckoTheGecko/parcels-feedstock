@@ -67,7 +67,7 @@ tests:
     script:
       # - if: unix
       #   then: if [ -z ${CC+x} ]; then echo "\$CC not set"; exit 1; else echo "CC is set to $CC"; fi
-      - curl https://raw.githubusercontent.com/OceanParcels/parcels/master/docs/examples/example_peninsula.py > example_peninsula.py
+      - curl https://raw.githubusercontent.com/OceanParcels/parcels/v3.1.4/docs/examples/example_peninsula.py > example_peninsula.py
       - python example_peninsula.py
 
 about:
