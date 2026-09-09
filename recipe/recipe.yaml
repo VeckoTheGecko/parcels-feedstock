@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: parcels
   version: "4.0.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -48,6 +47,9 @@ requirements:
 
 tests:
   - python:
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       imports:
         - parcels
 
