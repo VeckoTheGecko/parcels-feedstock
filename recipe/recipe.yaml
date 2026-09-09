@@ -1,3 +1,5 @@
+schema_version: 1
+
 context:
   name: parcels
   version: "4.0.0"
@@ -15,11 +17,11 @@ build:
   number: 0
   noarch: python
   script:
-    - python -m pip install . -vv --no-deps --no-build-isolation
+    - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python ${{python_min}}.*
+    - python ${{ python_min }}.*
     - pip
     - setuptools
     - setuptools_scm
