@@ -59,7 +59,7 @@ about:
   license_file: LICENSE.md
   summary: Parcels - A highly customisable Lagrangian simulation framework
   description: |
-    Parcels provides a set of Python classes and methods to create customisable particle tracking simulations using gridded output from (ocean) circulation models.
+    Parcels provides a set of Python classes and methods to create customisable particle tracking simulations using gridded output from geoscientific circulation models.
   documentation: https://parcels-code.org/
   repository: https://github.com/Parcels-code/parcels
 
