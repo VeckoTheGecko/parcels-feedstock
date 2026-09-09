@@ -19,7 +19,6 @@ tracking simulations using output from Ocean Circulation models.
 Parcels can be used to track passive and active particulates such as
 water, nutrients, plankton, plastic and fish.
 
-
 Current build status
 ====================
 
