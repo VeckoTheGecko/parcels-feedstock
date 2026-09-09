@@ -52,6 +52,7 @@ tests:
         - "*"
       imports:
         - parcels
+      pip_check: false # Remove line to enable `pip check`. Do when next minor (vx.this.x) of uxarray comes out (currently its resolving to `v2026.08.0` which has broken metadata https://github.com/UXARRAY/uxarray/issues/1542#issuecomment-5390203863 )
 
 about:
   license: MIT
